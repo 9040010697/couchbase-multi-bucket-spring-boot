@@ -1,0 +1,16 @@
+app:
+  couchbase:
+    bootstrap-hosts: localhost
+    username: dhananjaya
+    password: dhananjaya@123
+    bucket:
+      name-customer: customer-bkt
+      name-user: user-bkt
+      name-session: session-bkt
+
+
+#CREATE PRIMARY INDEX ON `customer-bkt` USING GSI;
+#CREATE PRIMARY INDEX ON `user-bkt` USING GSI;
+#CREATE PRIMARY INDEX ON `session-bkt` USING GSI;
+# create a user inside security tab
+
